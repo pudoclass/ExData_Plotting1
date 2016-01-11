@@ -18,4 +18,4 @@ dev.copy(png, file = "plot1.png")
 dev.off
 
 
-inp <- subset(data, strptime(data$Global_active_power, format = "%d/%m/%y") == as.Date.character("2007-02-01"))
+
